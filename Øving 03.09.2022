@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info dyr</title>
+    <link rel="stylesheet" href="info.css">
+    <script src="info.js"></script>
+</head>
+<body>
+    <section class="Animal-list">
+        <div class="nav"><h1>Info om dyr</h1></div>
+            <span id="blåhval">
+                Blåhval 
+                <img src="blåhval.avif" alt=""> 
+                <a href="https://no.wikipedia.org/wiki/Bl%C3%A5hval" target="_blank">Fakta blåhval</a>
+            </span>
+            <span id="elefant">
+                Elefant
+                 <img src="ele.jpg" alt=""> 
+                 <a href="https://no.wikipedia.org/wiki/Elefanter" target="_blank">Fakta elefant</a>
+            </span>
+            <span id="flodhest">
+                Flodhest 
+                <img src="flodhest.jpg" alt="">
+                <a href="https://no.wikipedia.org/wiki/Flodhester" target="_blank">Fakta flodhest</a>
+            </span>
+
+        
+    </section>
+</body>
+</html>
+
+
+
+
+.nav {
+    background-color: #88402b;
+    width: 100%;
+    text-align: center;
+    
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    
+
+/* Kan bytte til flex direction:row for bilder ved siden av hverandre*/
+}
+
+.Animal-list {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(9, 9, 39);
+    font-style: italic;
+}
+
+body {
+    background-color: #d4b78a;
+    margin: 0;
+
+}
+
+
+a {
+    color:rgb(0, 0, 0);
+    background-color: rgb(109, 79, 40);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;
+    border: 0px solid rgb(42, 44, 165);
+    width: 120px;
+
+}
+a:hover{
+    background-color: rgba(222, 184, 135, 0.507);
+}
+
+img {
+    border-radius: 250px;
+    width: 1000px;
+}
+
+li {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight:bolder
+    
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:larger;
+    color:aliceblue;
+}
+/*
+#blåhval {
+    align-self: flex-start;
+}
+
+#elefant {
+    align-self: flex-end;
+}
+*/
