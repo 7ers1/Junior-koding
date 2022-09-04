@@ -1,1 +1,0 @@
-alert("Hei jeg heter olav og jeg liker dyr");
